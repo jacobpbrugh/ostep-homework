@@ -19,6 +19,4 @@ int main() {
         totalTime += (tval2.tv_sec - tval1.tv_sec) * 1000000L + (tval2.tv_usec - tval1.tv_usec);
     }
 
-    printf("total elapsed: %ld\n", totalTime);
-    printf("avg telapsed: %f\n", (double)totalTime / repCount);
 }
